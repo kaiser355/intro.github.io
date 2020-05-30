@@ -27,16 +27,31 @@ li {
   padding: 50px 40px;
 }
 
+.copy-container {
+  position: relative;
+}
+
 .copy-container h1 {
   font-size: 40px;
+  color:white;
+  position: absolute;
+  bottom:150px;
+  left: 20px;
+  margin:0;
+  padding:0;
 }
 
 .copy-container h2 {
   font-size: 20px;
+  width:1000px;
+  color:white;
+  position: absolute;
+  bottom:0px;
+  left: 20px;
 }
 
 .contents {
-  height: 1400px;
+  height: 1700px;
   margin-top:100px;
 }
 
@@ -47,10 +62,15 @@ li {
   	margin-bottom:30px;
   }
 
+  .section-title span{
+    	color:#2C7CFF;
+    }
+
 .contents-item {
   float: left;
   margin-right: 40px;
 }
+
 
 .margin-item p {
   font-size:24px;
